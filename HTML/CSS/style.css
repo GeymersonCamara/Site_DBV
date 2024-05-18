@@ -1,9 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .cab {
     display: flex;
     background: #3c8dbc;
     height: 100px;
-    width: 75%;
-    margin-left: 23%;
+    width: 80%;
+    margin-left: 20%;
     position: absolute;
 }
 
@@ -21,17 +28,15 @@
     margin: auto;
 }
 
-.container {
-    display: flex;
+.cont {
     background: rgb(49, 49, 49);
     height: 1920px;
-    width: 410px;
+    width: 380px;
     position: absolute;
     z-index: 101;
 }
 
 .a {
-    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
@@ -49,6 +54,110 @@
     overflow: hidden;
 }
 
-h1 {
-    margin: 0;
+.meu {
+    margin-top: 70px;
 }
+
+.btn {
+    width: 300px;
+    margin-left: 37px;
+}
+/*
+#category-select label {
+    font-size: 0.75rem;
+    letter-spacing: 0.0225rem;
+}
+
+#select-button {
+    margin-top: .5rem;
+    display: flex;
+    padding: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: .375rem;
+    border: 1px solid #252529;
+    background-color: rgb(30, 30, 30);
+    width: 300px;
+}
+
+#selected-value {
+    color: white;
+    font-size: 0.875rem;
+    letter-spacing: 0.02625rem;
+}
+
+#chevrons svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+#chevrons {
+    color: white;
+}
+
+#chevrons [data-lucide="chevron-up"] {
+    display: none;
+}
+
+#options-view-button:focus+#select-button,
+#options-view-button:checked+#selected-button {
+    outline: 1px solid #3c8dbc;
+}
+
+#category-select:has(#options-view-button:checked) label,
+#options-view-button:checked+#select-button #chevrons {
+    color: #3c8dbc;
+}
+
+#options-view-button:checked+#select-button #chevrons [data-lucide="chevron-down"] {
+    display: none;
+}
+
+#options-view-button:checked+#select-button #chevrons [data-lucide="chevron-up"] {
+    display: none;
+}
+
+#category-select {
+    position: relative;
+}
+
+#options-view-button {
+    all: unset;
+
+    position: absolute;
+    inset: 0;
+
+    cursor: pointer;
+    z-index: 3;
+}
+
+#options {
+    margin-top: .25rem;
+
+    border-radius: .375rem;
+    border: 1px solid #252529;
+    background: rgb(30, 30, 30);
+    width: 300px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    padding: .75rem;
+
+    border-bottom: 1px solid #252529;
+}
+
+.option label {
+    color: white;
+}
+
+.option:has(input:checked),
+.option:hover {
+    border-radius: 1px solid #252529;
+    background-color: #252529;
+}
+*/
