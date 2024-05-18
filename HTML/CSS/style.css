@@ -98,6 +98,15 @@
 .b li {
     margin-top: 15px;
 }
+
+main {
+    position: absolute;
+    display: flex;
+    background: red;
+    height: 1820px;
+    width: 1484px;
+    margin: 100px 0 0 380px;
+}
 /*
 #category-select label {
     font-size: 0.75rem;
