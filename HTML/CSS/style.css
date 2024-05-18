@@ -1,5 +1,54 @@
+.cab {
+    display: flex;
+    background: #3c8dbc;
+    height: 100px;
+    width: 75%;
+    margin-left: 23%;
+    position: absolute;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: auto;
+    margin: auto;
+}
+
 .container {
-    background: red;
-    height: 100%;
-    width: 30%;
+    display: flex;
+    background: rgb(49, 49, 49);
+    height: 1920px;
+    width: 410px;
+    position: absolute;
+    z-index: 101;
+}
+
+.a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    display: block;
+    float: left;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 15px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
 }
