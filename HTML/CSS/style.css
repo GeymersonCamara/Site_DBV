@@ -102,10 +102,36 @@
 main {
     position: absolute;
     display: flex;
-    background: red;
     height: 1820px;
     width: 1484px;
     margin: 100px 0 0 380px;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    margin-top: 30px;
+    height: 720px;
+    width: 400px;
+    background-image: url(../img/WhatsApp\ Image\ 2024-05-18\ at\ 20.20.13.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img1:hover {
+    box-shadow: 5px 5px 20px black;
+}
+
+.img2 {
+    margin-top: 30px;
+    height: 720px;
+    width: 570px;
+    background-image: url(../img/WhatsApp\ Image\ 2024-05-18\ at\ 20.21.39.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img2:hover {
+    box-shadow: 5px 5px 20px black;
 }
 /*
 #category-select label {
