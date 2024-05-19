@@ -190,16 +190,22 @@ section {
     background-repeat: no-repeat;
 }
 
+.card1:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px #00BFFF;
+}
+
 .card2 {
     width: 300px;
     height: 450px;
     margin-top: 150px;
     border: 2px solid #87CEEB;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px #00BFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.card1:hover {
+.card2:hover {
     border: 2px solid white;
     box-shadow: 0px 0px 20px #00BFFF;
 }
